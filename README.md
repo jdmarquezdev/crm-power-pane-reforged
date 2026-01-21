@@ -54,6 +54,8 @@ This project is a fork and continuation of the excellent **[CRM Power Pane](http
 
 We have built upon his solid foundation to fix compatibility issues with modern browser security standards (Manifest V3, CSP) and recent updates to the Dynamics 365 platform.
 
+🤖 *This project was developed with the assistance of [Antigravity](https://deepmind.google/), an AI coding assistant by Google DeepMind.*
+
 ## 📄 License
 This project is licensed under the **ISC License**.
 
@@ -115,6 +117,8 @@ npm run build-edge
 Este proyecto es un "fork" y continuación del excelente **[CRM Power Pane](https://github.com/onurmenal/crm-power-pane)**, creado originalmente por **[Onur Menal](https://github.com/onurmenal)**.
 
 Hemos construido sobre su sólida base para arreglar problemas de compatibilidad con los estándares de seguridad modernos de los navegadores (Manifest V3, CSP) y actualizaciones recientes de la plataforma Dynamics 365.
+
+🤖 *Este proyecto fue desarrollado con la asistencia de [Antigravity](https://deepmind.google/), un asistente de programación IA de Google DeepMind.*
 
 ## 📄 Licencia
 Este proyecto está licenciado bajo la **Licencia ISC**.

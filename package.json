@@ -1,5 +1,5 @@
 {
-  "name": "crm-power-pane-jdm",
+  "name": "crm-power-pane-reforged",
   "version": "0.3.0",
   "description": "Dynamics 365 Power Pane is a helper tool designed to integrate with Dynamics CRM/365 application and allow you to manipulate forms.",
   "main": "index.js",
@@ -9,15 +9,18 @@
     "build-chrome": "npm run build -- --target=chrome",
     "build-firefox": "npm run build -- --target=firefox",
     "build-edge": "npm run build -- --target=edge",
-    "build-all": "node ./build/all"
+    "build-all": "node ./build/all",
+    "pack": "npm run build-chrome -- --noinc && npm run build-firefox -- --noinc && node ./build/pack.js chrome && node ./build/pack.js firefox"
   },
   "author": "Onur Menal",
   "license": "ISC",
   "devDependencies": {
+    "archiver": "^7.0.1",
     "gulp": "^4.0.2",
     "gulp-replace": "^1.1.4",
     "gulp-sass": "^5.1.0",
     "gulp-sass-variables": "^1.2.0",
+    "gulp-zip": "^6.1.0",
     "webpack-stream": "^6.1.2",
     "yargs": "^16.2.0"
   },
